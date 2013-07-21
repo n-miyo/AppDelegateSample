@@ -11,4 +11,6 @@
 #ifdef __OBJC__
   #import <UIKit/UIKit.h>
   #import <Foundation/Foundation.h>
+
+  #define MLog() NSLog(@"%s:%d:.", __PRETTY_FUNCTION__, __LINE__)
 #endif
